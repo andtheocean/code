@@ -1,0 +1,11 @@
+1.c＋＋scanf and cin 用法
+ 	string 与  char 数组 并无区别  都是一个指向数组开始的指针。
+	scanf 适合标准格式输入
+	cin可以一次从屏幕读取多个数据  但是cin不能读取string类型
+	string 适合内部直接赋值使用
+	cin.get可以指定输入的个数  如cin.get(a,n); 输入n-1个数
+
+2.
+	
+ 	
+  

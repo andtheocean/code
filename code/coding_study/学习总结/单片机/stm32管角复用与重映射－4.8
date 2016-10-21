@@ -1,0 +1,8 @@
+为了节约引脚，stm32内部有些不同的模块会共用相同的引脚，如果某个引脚被一个功能占用了，就需要对这个功能的端口进行重映射，从而使用其他管脚。
+
+猜测这个开启了哪些重映射的信息（复用信息）会被寄存器记录下来，而要正常使用这个寄存器，需要开启RCC_APB2Periph_AFIO这个时钟。
+RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE); 
+
+开启这个时钟后，进行重映射：GPIO_PinRemapConfig(GPIO_Remap_USART2, ENABLE);
+
+所以说目前理解的引脚复用就是同一个引脚可实现不同模块的功能， 而重映射就是具体的实现引脚复用的功能的。

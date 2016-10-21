@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Robot", "Robot\Robot.vcproj", "{73CA4ED1-CBB2-46E9-9A7F-BD1F1E8D26A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CA4ED1-CBB2-46E9-9A7F-BD1F1E8D26A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73CA4ED1-CBB2-46E9-9A7F-BD1F1E8D26A7}.Debug|Win32.Build.0 = Debug|Win32
+		{73CA4ED1-CBB2-46E9-9A7F-BD1F1E8D26A7}.Release|Win32.ActiveCfg = Release|Win32
+		{73CA4ED1-CBB2-46E9-9A7F-BD1F1E8D26A7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
